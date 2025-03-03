@@ -3,16 +3,15 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-  "main": "dist/index.js",
-  "license": "MIT",
+	"main": "dist/index.js",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build",
-    "publish": 
+		"build-storybook": "storybook build"
 	},
 	"dependencies": {
 		"@radix-ui/themes": "^3.2.1",
