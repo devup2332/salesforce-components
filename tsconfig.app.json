@@ -19,11 +19,14 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "outDir": "./dist",
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
+    "declaration": true,
+    "typeRoots": ["./dist/index.d.ts"],
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
   },
-  "include": ["src"]
+  "include": ["src","./index.ts"]
 }
