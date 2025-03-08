@@ -1,12 +1,12 @@
 {
 	"name": "salesforce-components",
-	"version": "0.0.9",
+	"version": "0.1.0",
 	"type": "module",
 	"main": "dist/index.umd.js",
 	"bin": "dist/index.umd.js",
 	"module": "dist/index.es.js",
 	"types": "dist/index.d.ts",
-	"files": ["dist"],
+	"files": ["dist", "dist/index.css"],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/devup2332/salesforce-components"

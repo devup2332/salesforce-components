@@ -1,8 +1,8 @@
 import { cn } from "@/utils/cn";
-import React, { ComponentProps } from "react";
+import React, { ComponentProps, JSX } from "react";
 
 interface InputProps extends ComponentProps<"input"> {
-	Icon?: React.FC;
+	Icon?: JSX.Element;
 }
 
 const Input: React.FC<InputProps> = ({ Icon, disabled, ...props }) => {
@@ -19,7 +19,7 @@ const Input: React.FC<InputProps> = ({ Icon, disabled, ...props }) => {
 				disabled={disabled}
 				{...props}
 			/>
-			{Icon && <Icon />}
+			{Icon && Icon}
 		</div>
 	);
 };

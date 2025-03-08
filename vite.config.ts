@@ -24,6 +24,7 @@ export default defineConfig({
 		lib: {
 			entry: path.resolve(__dirname, "src/index.ts"),
 			name: "salesforce-components",
+			cssFileName: "index",
 			formats: ["es", "umd"],
 			fileName: (format) => `index.${format}.js`,
 		},
